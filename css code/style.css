@@ -1,0 +1,172 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.firstPart{
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+.topPart{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    padding: 20px 20px;
+    background-color: cyan;
+}
+.logoPart{
+    width: 100%;
+    height: 100px;
+}
+.contactPart{
+    padding-left: 145vh;
+    width: 100%;
+    height: 50px;
+}
+.loginPart{
+    padding-left: 8vh;
+    width: 100%;
+    height: 50px;
+}
+.shopPart{
+    padding-left: 15vh;
+    width: 100%;
+    height: 50px;
+}
+
+.secondPart{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.secondPart nav{
+    display: flex;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.secondPart nav a{
+    text-decoration: none;
+}
+.secondPart nav a li{
+    list-style-type: none;
+    padding: 20px 80px;
+
+    font-family: 'Arial';
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.secondPart nav a li:hover{
+    background-color: red;
+}
+
+.container{
+    background:linear-gradient(45deg, blueviolet, lightgreen);
+    padding: 15px 9%;
+    padding-bottom: 100px;
+}
+
+.container .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+}
+
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding: 30px 12px;
+}
+
+.container .box-container .box img{
+    height: 250px;
+}
+
+.container .box-container .box h3{
+    color: #444;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.container .box-container .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.container .box-container .box .btn:hover{
+    letter-spacing: 1px;
+}
+
+.container .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+@media (max-width:768px){
+    .container{
+        padding: 20px;
+    }
+}
+
+.bottomPart{
+    width: 100%;
+    height: 130px;
+    padding: 20px 20px;
+    display: flex;
+    background-color: cyan;
+}
+
+.facebookPart{
+    width: 100%;
+    height: 55px;
+    Display : flex;
+    Justify-content : space between;
+    Padding : 20px 5%;
+}
+
+.instagramPart{
+    width: 100%;
+    height: 55px;
+    align-items: right;
+    Display : flex;
+    Justify-content : space between;
+    Padding : 20px 5%;
+}
+
+.youtubePart{
+    width: 100%;
+    height: 55px;
+    align-items: right;
+    Display : flex;
+    Justify-content : space between;
+    Padding : 20px 5%;
+}
+
+.twitterPart{
+    width: 100%;
+    height: 55px;
+    align-items: right;
+    Display : flex;
+    Justify-content : space between;
+    Padding : 20px 5%; 
+}

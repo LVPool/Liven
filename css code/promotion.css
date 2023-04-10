@@ -1,0 +1,110 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.firstPart{
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+.topPart{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    padding: 20px 20px;
+    background-color: cyan;
+}
+.logoPart{
+    width: 100%;
+    height: 100px;
+}
+.contactPart{
+    padding-left: 145vh;
+    width: 100%;
+    height: 50px;
+}
+.loginPart{
+    padding-left: 8vh;
+    width: 100%;
+    height: 50px;
+}
+.shopPart{
+    padding-left: 15vh;
+    width: 100%;
+    height: 50px;
+}
+
+.secondPart{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.secondPart nav{
+    display: flex;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.secondPart nav a{
+    text-decoration: none;
+}
+.secondPart nav a li{
+    list-style-type: none;
+    padding: 20px 80px;
+
+    font-family: 'Arial';
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.secondPart nav a li:hover{
+    background-color: red;
+}
+
+.bottomPart{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: left;
+    padding: 20px 20px;
+    background-color: cyan;
+}
+
+.facebookPart{
+    width: 100%;
+    height: 55px;
+    Display : flex;
+    Justify-content : space between;
+    Padding : 20px 5%;
+}
+
+.instagramPart{
+    width: 100%;
+    height: 55px;
+    align-items: right;
+    Display : flex;
+    Justify-content : space between;
+    Padding : 20px 5%;
+}
+
+.youtubePart{
+    width: 100%;
+    height: 55px;
+    align-items: right;
+    Display : flex;
+    Justify-content : space between;
+    Padding : 20px 5%;
+}
+
+.twitterPart{
+    width: 100%;
+    height: 55px;
+    align-items: right;
+    Display : flex;
+    Justify-content : space between;
+    Padding : 20px 5%; 
+}

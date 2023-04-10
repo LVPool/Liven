@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+}
+.firstPart{
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+.topPart{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    padding: 20px 20px;
+    background-color: cyan;
+}
+.logoPart{
+    width: 100%;
+    height: 100px;
+}
+.contactPart{
+    padding-left: 145vh;
+    width: 100%;
+    height: 50px;
+}
+.shopPart{
+    padding-left: 15vh;
+    width: 100%;
+    height: 50px;
+}
+.loginPart{
+    padding-left: 8vh;
+    width: 100%;
+    height: 50px;
+}
+
+.secondPart{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.secondPart nav{
+    display: flex;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.secondPart nav a{
+    text-decoration: none;
+}
+.secondPart nav a li{
+    list-style-type: none;
+    padding: 20px 80px;
+
+    font-family: 'Arial';
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.secondPart nav a li:hover{
+    background-color: red;
+}
+
+.fourthPart{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+.thirdPart{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(feedback-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 95px;
+}
+.container{
+    width: 360px;
+    background: #000;
+    box-shadow: 0 0 8px rgba(250, 250, 250, 0.6);
+    opacity: 0.7;
+    
+}
+
+.container form{
+    text-align: center;
+    padding: 25px 20px;
+}
+form h1{
+    padding: 10px 0;
+}
+form .id{
+    position: relative;
+}
+.id i{
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+form input{
+    width: 100%;
+    height: 50px;
+    margin: 4px 0;
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+    background: #181717;
+    padding: 0 15px;
+    padding-right: 45px;
+    font-size: 20px;
+}
+form textarea{
+    padding: 5px 15px;
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+    background: #181717;
+    font-size: 20px;
+    width: 100%;
+    margin: 4px 0;
+}
+form button{
+    margin-top: 5px;
+    border: none;
+    background: #00fff0;
+    color: #222;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 3px;
+}
+form input:focus,
+form textarea:focus{
+    border: 1px solid #00fff0;
+    color: #00fff0;
+    transition: all 0.3s ease;
+}
+form input:focus::placeholder
+form textarea:focus::placeholder{
+    padding-left: 4px;
+    color: #00fff0;
+    transition: all 0.3s ease;
+}
+form input:focus + i{
+    color: #00fff0;
+    transition: all 0.3s ease;
+}
+
+.bottomPart{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: left;
+    padding: 20px 20px;
+    background-color: cyan;
+}
+
+.facebookPart{
+    width: 100%;
+    height: 55px;
+    Display : flex;
+    Justify-content : space between;
+    Padding : 20px 5%;
+}
+
+.instagramPart{
+    width: 100%;
+    height: 55px;
+    align-items: right;
+    Display : flex;
+    Justify-content : space between;
+    Padding : 20px 5%;
+}
+
+.youtubePart{
+    width: 100%;
+    height: 55px;
+    align-items: right;
+    Display : flex;
+    Justify-content : space between;
+    Padding : 20px 5%;
+}
+
+.twitterPart{
+    width: 100%;
+    height: 55px;
+    align-items: right;
+    Display : flex;
+    Justify-content : space between;
+    Padding : 20px 5%; 
+}
